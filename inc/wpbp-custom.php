@@ -37,6 +37,14 @@ function capture_style()
 		background-color: <?php echo of_get_option('color_dark', '#000'); ?>;
 	}
 
+	#main .cta h1 {
+		color: <?php echo of_get_option('color_dark', '#000'); ?>;
+	}
+
+	#main .cta h2 {
+		color: <?php echo of_get_option('color_light', '#000'); ?>;
+	}
+
 </style>
 <?php
 }
