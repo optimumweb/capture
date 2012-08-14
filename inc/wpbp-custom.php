@@ -4,9 +4,9 @@
 function enqueue() {
 	if ( !is_admin() ) {
 		// scripts
-		wpbp_enqueue_scripts( array( 'modernizr', 'jquery', 'wpbp', 'scrollTo' ) );
+		wpbp_enqueue_scripts( array( 'modernizr', 'jquery', 'wpbp', 'scrollTo', 'flexslider' ) );
 		// styles
-		wp_enqueue_style('wpbp');
+		wpbp_enqueue_styles( array( 'wpbp', 'flexslider' ) );
 		wp_enqueue_style('theme', THEME_URI . '/css/master.css', array('wpbp'));
 	}
 }

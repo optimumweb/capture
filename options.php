@@ -84,6 +84,35 @@ function optionsframework_options() {
 			'name' => __("Partner Phone Number", 'capture'),
 			'id'   => 'partner_tel',
 			'type' => 'text'
+		),
+		array(
+			'name' => __("Slides", 'capture'),
+			'type' => 'heading'
+		),
+		array(
+			'name' => __("Slide 1", 'capture'),
+			'id'   => 'slide_1',
+			'type' => 'upload'
+		),
+		array(
+			'name' => __("Slide 2", 'capture'),
+			'id'   => 'slide_2',
+			'type' => 'upload'
+		),
+		array(
+			'name' => __("Slide 3", 'capture'),
+			'id'   => 'slide_3',
+			'type' => 'upload'
+		),
+		array(
+			'name' => __("Slide 4", 'capture'),
+			'id'   => 'slide_4',
+			'type' => 'upload'
+		),
+		array(
+			'name' => __("Slide 5", 'capture'),
+			'id'   => 'slide_5',
+			'type' => 'upload'
 		)
 	);
 
