@@ -30,13 +30,37 @@ function optionsframework_options() {
 
 	$options = array(
 		array(
-			'name' => 'General',
+			'name' => __("General", 'capture'),
 			'type' => 'heading'
 		),
 		array(
-			'name' => 'Logo',
-			'id' => 'logo',
+			'name' => __("Color (dark)", 'capture'),
+			'id'   => 'color_dark',
+			'type' => 'color'
+		),
+		array(
+			'name' => __("Color (light)", 'capture'),
+			'id'   => 'color_light',
+			'type' => 'color'
+		),
+		array(
+			'name' => __("Logo", 'capture'),
+			'id'   => 'logo',
 			'type' => 'upload'
+		),
+		array(
+			'name' => __("Background Image", 'capture'),
+			'id'   => 'background_image',
+			'type' => 'upload'
+		),
+		array(
+			'name' => __("Background Tile", 'capture'),
+			'id'   => 'background_repeat',
+			'type' => 'select',
+			'options' => array(
+				'repeat'    => __("Repeat", 'capture'),
+				'no-repeat' => __("No-repeat", 'capture')
+			)
 		)
 	);
 
