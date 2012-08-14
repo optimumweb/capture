@@ -61,6 +61,15 @@ function optionsframework_options() {
 				'repeat'    => __("Repeat", 'capture'),
 				'no-repeat' => __("No-repeat", 'capture')
 			)
+		),
+		array(
+			'name' => __("Background Attachment", 'capture'),
+			'id'   => 'background_attachment',
+			'type' => 'select',
+			'options' => array(
+				'scroll' => __("Scroll", 'capture'),
+				'fixed'  => __("Fixed", 'capture')
+			)
 		)
 	);
 

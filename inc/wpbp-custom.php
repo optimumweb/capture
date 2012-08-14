@@ -21,6 +21,7 @@ function capture_style()
 	body {
 		background-image: url(<?php echo of_get_option('background_image', THEME_URI . '/img/background_image.jpg'); ?>);
 		background-repeat: <?php echo of_get_option('background_repeat', 'repeat'); ?>;
+		background-attachment: <?php echo of_get_option('background_attachment', 'scroll'); ?>;
 	}
 	#wrap {
 		border-top: 2px solid <?php echo of_get_option('color_light', '#000'); ?>;
