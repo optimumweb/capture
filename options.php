@@ -70,6 +70,20 @@ function optionsframework_options() {
 				'scroll' => __("Scroll", 'capture'),
 				'fixed'  => __("Fixed", 'capture')
 			)
+		),
+		array(
+			'name' => __("Partner", 'capture'),
+			'type' => 'heading'
+		),
+		array(
+			'name' => __("Partner Name", 'capture'),
+			'id'   => 'partner_name',
+			'type' => 'text'
+		),
+		array(
+			'name' => __("Partner Phone Number", 'capture'),
+			'id'   => 'partner_tel',
+			'type' => 'text'
 		)
 	);
 

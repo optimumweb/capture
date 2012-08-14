@@ -24,9 +24,12 @@
 					</section>
 			    </div>
 			    <div class="grid_6">
-			    	<section id="call">
-						<?php dynamic_sidebar('Header'); ?>
-					</section>
+			    	<?php if ( of_get_option('partner_tel') ) : ?>
+						<section id="call">
+							<h4><?php _e("Free information and advices", 'capture'); ?></h4>
+							<div class="tel"><?php echo of_get_option('partner_tel'); ?></div>
+						</section>
+					<?php endif; ?>
 			    </div>
             </div>
             <?php wpbp_header_inside_after(); ?>
