@@ -32,5 +32,3 @@
             <?php wpbp_header_inside_after(); ?>
 		</header>
 		<?php wpbp_header_after(); ?>
-
-		<?php if ( is_front_page() ) get_template_part('banner'); ?>
