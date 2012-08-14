@@ -24,7 +24,9 @@
 					</section>
 			    </div>
 			    <div class="grid_6">
-					<?php dynamic_sidebar('Header'); ?>
+			    	<section id="call">
+						<?php dynamic_sidebar('Header'); ?>
+					</section>
 			    </div>
             </div>
             <?php wpbp_header_inside_after(); ?>
