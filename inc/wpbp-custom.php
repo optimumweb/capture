@@ -46,6 +46,10 @@ function capture_style()
 		color: <?php echo of_get_option('color_light', '#000'); ?>;
 	}
 
+	.iphorm-group-title {
+		color: <?php echo of_get_option('color_dark', '#000'); ?>;
+	}
+
 </style>
 <?php
 }
