@@ -47,7 +47,7 @@ function capture_style()
 	}
 
 	.iphorm-group-title {
-		color: <?php echo of_get_option('color_dark', '#000'); ?>;
+		color: <?php echo of_get_option('color_dark', '#000'); ?> !important;
 	}
 
 </style>
