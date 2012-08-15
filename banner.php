@@ -1,6 +1,6 @@
 <section id="banner">
 	<div class="container <?php wpbp_option('container_class'); ?>">
-		<div id="slider">
+		<div class="flexslider">
 			<ul class="slides">
 				<?php if ( of_get_option('slide_1') ) : ?>
 					<li><img src="<?php echo of_get_option('slide_1'); ?>" /></li>

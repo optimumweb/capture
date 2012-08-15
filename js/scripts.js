@@ -1,3 +1,3 @@
 $(window).load(function() {
-	$('#slider').flexslider();
+	$('.flexslider').flexslider();
 });
