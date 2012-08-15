@@ -24,6 +24,10 @@ function capture_style()
 		background-attachment: <?php echo of_get_option('background_attachment', 'scroll'); ?>;
 	}
 
+	a {
+		color: <?php echo of_get_option('color_dark', '#000'); ?> !important;
+	}
+
 	#wrap {
 		border-top: 2px solid <?php echo of_get_option('color_light', '#000'); ?>;
 	}
@@ -45,6 +49,10 @@ function capture_style()
 	}
 
 	.iphorm-group-title {
+		color: <?php echo of_get_option('color_dark', '#000'); ?> !important;
+	}
+
+	.widget-title {
 		color: <?php echo of_get_option('color_dark', '#000'); ?> !important;
 	}
 
