@@ -16,6 +16,9 @@ add_action('init', 'enqueue');
 // Load theme textdomain (for translation)
 load_theme_textdomain('capture', THEME_DIRECTORY . '/lang');
 
+// Add widget area
+wpbp_register_sidebars( array( 'Footer' ) );
+
 function capture_style()
 {
 ?>

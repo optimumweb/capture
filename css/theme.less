@@ -115,10 +115,6 @@ h6 { font-size: 10px; }
 }
 
 #sidebar {
-	background: #eee;
-	border: solid #ddd;
-	border-width: 1px 0;
-
 	.widget {
 		width: 33.333%;
 		float: left;
@@ -131,15 +127,23 @@ h6 { font-size: 10px; }
 }
 
 #footer {
-	padding: 20px 0;
-	font-size: 10px;
-	color: #777;
-
-	#footer-nav, #copy {
-		padding: 0 20px;
+	#footer-widgets {
+		background: #eee;
+		border: solid #ddd;
+		border-width: 1px 0;
 	}
 
-	#copy {
-		text-align: right;
+	#sub-footer {
+		font-size: 10px;
+		color: #777;
+		padding: 20px 0;
+
+		#footer-nav, #copy {
+			padding: 0 20px;
+		}
+
+		#copy {
+			text-align: right;
+		}
 	}
 }
