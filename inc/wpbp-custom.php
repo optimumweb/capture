@@ -4,10 +4,10 @@
 function enqueue() {
 	if ( !is_admin() ) {
 		// scripts
-		wpbp_enqueue_scripts( array( 'modernizr', 'jquery', 'wpbp', 'scrollTo', 'powerslide' ) );
+		wpbp_enqueue_scripts( array( 'modernizr', 'jquery', 'wpbp', 'scrollTo', 'flexslider' ) );
 		wp_enqueue_script('theme', THEME_URI . '/js/scripts.js', array('wpbp'));
 		// styles
-		wpbp_enqueue_styles( array( 'wpbp', 'powerslide' ) );
+		wpbp_enqueue_styles( array( 'wpbp' ) );
 		wp_enqueue_style('theme', THEME_URI . '/css/master.css', array('wpbp'));
 	}
 }
