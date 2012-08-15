@@ -18,7 +18,6 @@
 					<li><img src="<?php echo of_get_option('slide_5'); ?>" /></li>
 				<?php endif; ?>
 			</ul>
-			<div class="clear"></div>
 		</div>
 	</div>
 </section>
