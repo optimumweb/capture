@@ -18,4 +18,10 @@
 	</section>
 	<?php wpbp_content_after(); ?>
 
+	<aside id="sidebar">
+		<div class="container <?php wpbp_option('container_class'); ?>">
+			<?php get_sidebar('front-page'); ?>
+		</div>
+	</aside>
+
 <?php get_footer(); ?>
