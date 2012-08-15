@@ -13,6 +13,9 @@ function enqueue() {
 }
 add_action('init', 'enqueue');
 
+// Load theme textdomain (for translation)
+load_theme_textdomain('capture', THEME_DIRECTORY . '/lang');
+
 function capture_style()
 {
 ?>
