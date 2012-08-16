@@ -44,6 +44,11 @@ function optionsframework_options() {
 			'type' => 'color'
 		),
 		array(
+			'name' => __("Color (contrast)", 'capture'),
+			'id'   => 'color_contrast',
+			'type' => 'color'
+		),
+		array(
 			'name' => __("Logo", 'capture'),
 			'id'   => 'logo',
 			'type' => 'upload'

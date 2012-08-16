@@ -59,7 +59,7 @@ function capture_style()
 	}
 
 	#sidebar .widget-title {
-		color: <?php echo of_get_option('color_dark', '#000'); ?> !important;
+		color: <?php echo of_get_option('color_contrast', '#000'); ?> !important;
 	}
 
 </style>
