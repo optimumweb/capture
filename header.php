@@ -35,3 +35,5 @@
             <?php wpbp_header_inside_after(); ?>
 		</header>
 		<?php wpbp_header_after(); ?>
+
+		<?php get_template_part('banner'); ?>

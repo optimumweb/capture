@@ -1,7 +1,5 @@
 <?php get_header('front-page'); ?>
 
-	<?php get_template_part('banner'); ?>
-
     <?php wpbp_content_before(); ?>
 	<section id="content">
     	<div class="container <?php wpbp_option('container_class'); ?>">
