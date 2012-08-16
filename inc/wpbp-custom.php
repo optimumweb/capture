@@ -39,7 +39,7 @@ function capture_style()
 	}
 
 	#header #call .tel {
-		color: <?php echo of_get_option('color_light', '#000'); ?>;
+		color: <?php echo of_get_option('color_contrast', '#000'); ?>;
 	}
 
 	#banner {
