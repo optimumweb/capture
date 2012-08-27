@@ -148,11 +148,10 @@ body.home #sidebar {
 }
 
 #footer {
-	#footer-widgets {
-		background: #eee;
-		border: solid #ddd;
-		border-width: 1px 0;
+	background: #eee;
+	.inset-box-shadow(0,2px,5px,rgba(0,0,0,0.15));
 
+	#footer-widgets {
 		.widget {
 			width: 33.333%;
 			float: left;
@@ -166,10 +165,11 @@ body.home #sidebar {
 	#sub-footer {
 		font-size: 10px;
 		color: #777;
-		padding: 20px 0;
+		padding: 10px 0;
+		border-top: 1px solid #ddd;
 
 		#footer-nav, #copy {
-			padding: 0 20px;
+			padding: 0 10px;
 		}
 
 		#copy {

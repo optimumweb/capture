@@ -4,7 +4,7 @@
 function enqueue() {
 	if ( !is_admin() ) {
 		// scripts
-		wpbp_enqueue_scripts( array( 'modernizr', 'jquery', 'wpbp', 'scrollTo', 'flexslider' ) );
+		wpbp_enqueue_scripts( array( 'modernizr', 'jquery', 'wpbp', 'flexslider' ) );
 		wp_enqueue_script('theme', THEME_URI . '/js/scripts.js', array('wpbp'));
 		// styles
 		wpbp_enqueue_styles( array( 'wpbp', 'flexslider' ) );
@@ -25,7 +25,13 @@ function capture_style()
 <style>
 
 	body {
-		background-image: url(<?php echo of_get_option('background_image', THEME_URI . '/img/background_image.jpg'); ?>);
+		<?php if ( of_get_option('background_image') ) : ?>
+		background-image: url(<?php echo of_get_option('background_image'); ?>);
+		<?php endif; ?>
+		<?php if ( of_get_option('background_position') ) : ?>
+		background-position: url(<?php echo of_get_option('background_position'); ?>);
+		<?php endif; ?>
+		background-color: <?php echo of_get_option('background_color', '#fff'); ?>;
 		background-repeat: <?php echo of_get_option('background_repeat', 'repeat'); ?>;
 		background-attachment: <?php echo of_get_option('background_attachment', 'scroll'); ?>;
 	}
