@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Capture v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-08-27 04:05:03+0000\n"
+"Last-Translator: triton42 <jroy66@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: CANADA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: options.php:32
+#@ capture
+msgid "General"
+msgstr ""
+
+#: options.php:35
+#@ capture
+msgid "Color (dark)"
+msgstr ""
+
+#: options.php:36
+#@ capture
+msgid "Color (light)"
+msgstr ""
+
+#: options.php:38
+#@ capture
+msgid "Logo"
+msgstr ""
+
+#: options.php:40
+#@ capture
+msgid "Background Image"
+msgstr ""
+
+#: options.php:42
+#@ capture
+msgid "Background Tile"
+msgstr ""
+
+#: options.php:42
+#@ capture
+msgid "Repeat"
+msgstr ""
+
+#: options.php:42
+#@ capture
+msgid "No-repeat"
+msgstr ""
+
+#: options.php:43
+#@ capture
+msgid "Background Attachment"
+msgstr ""
+
+#: options.php:43
+#@ capture
+msgid "Scroll"
+msgstr ""
+
+#: options.php:43
+#@ capture
+msgid "Fixed"
+msgstr ""
+
+#: options.php:44
+#@ capture
+msgid "Slides"
+msgstr ""
+
+#: options.php:45
+#@ capture
+msgid "Slide 1"
+msgstr ""
+
+#: options.php:46
+#@ capture
+msgid "Slide 2"
+msgstr ""
+
+#: options.php:47
+#@ capture
+msgid "Slide 3"
+msgstr ""
+
+#: options.php:48
+#@ capture
+msgid "Slide 4"
+msgstr ""
+
+#: options.php:49
+#@ capture
+msgid "Slide 5"
+msgstr ""
+
+#: footer.php:20
+#@ capture
+msgid "Powered by Prospek Solutions"
+msgstr "Propulsé par Prospek Solutions"
+
+#: header.php:29
+#@ capture
+msgid "Questions? Call us!"
+msgstr "Des questions? Appelez-nous!"
+
+#: options.php:33
+#@ capture
+msgid "Phone Number"
+msgstr ""
+
+#: options.php:34
+#@ capture
+msgid "Style"
+msgstr ""
+
+#: options.php:37
+#@ capture
+msgid "Color (contrast)"
+msgstr ""
+
+#: options.php:39
+#@ capture
+msgid "Background Color"
+msgstr ""
+
+#: options.php:41
+#@ capture
+msgid "Background Position"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/404.php:10
+#@ wpbp
+msgid "File Not Found"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/404.php:13
+#@ wpbp
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/404.php:15
+#@ wpbp
+msgid "Please try the following:"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/404.php:17
+#@ wpbp
+msgid "Check your spelling"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/404.php:18
+#, php-format
+#@ wpbp
+msgid "Return to the <a href=\"%s\">home page</a>"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/404.php:19
+#@ wpbp
+msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/archive.php:12
+#, php-format
+#@ wpbp
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/archive.php:14
+#, php-format
+#@ wpbp
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/archive.php:16
+#, php-format
+#@ wpbp
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/author.php:11
+#, php-format
+#@ wpbp
+msgid "Author: %s"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/author.php:17
+#, php-format
+#@ wpbp
+msgid "%s's Google Profile"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/category.php:11
+#, php-format
+#@ wpbp
+msgid "Category: %s"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:7
+#, php-format
+#@ wpbp
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:8
+#, php-format
+#@ wpbp
+msgid "%1$s"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:9
+#@ wpbp
+msgid "(Edit)"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:13
+#@ wpbp
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:26
+#@ wpbp
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:31
+#@ wpbp
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:41
+#@ wpbp
+msgid "No Responses to"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:41
+#@ wpbp
+msgid "One Response to"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:41
+#@ wpbp
+msgid "% Responses to"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:48
+#@ wpbp
+msgid "&larr; Older comments"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:49
+#@ wpbp
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:58
+#@ wpbp
+msgid "Comments are closed."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:65
+#@ wpbp
+msgid "Leave a Reply"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:65
+#, php-format
+#@ wpbp
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:68
+#, php-format
+#@ wpbp
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:72
+#, php-format
+#@ wpbp
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:72
+#@ wpbp
+msgid "Log out of this account"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:72
+#@ wpbp
+msgid "Log out &raquo;"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:75
+#@ wpbp
+msgid "Name"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:75
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:79
+#@ wpbp
+msgid " (required)"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:79
+#@ wpbp
+msgid "Email (will not be published)"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:83
+#@ wpbp
+msgid "Website"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:88
+#@ wpbp
+msgid "Comment"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/comments.php:91
+#@ wpbp
+msgid "Submit Comment"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/functions.php:64
+#@ wpbp
+msgid "Primary Navigation"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/functions.php:65
+#@ wpbp
+msgid "Secondary Navigation"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-cleanup.php:288
+#@ wpbp
+msgid "Continued"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-cleanup.php:387
+#, php-format
+#@ wpbp
+msgid "Please update your <a href=\"%s\">site tagline</a>"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-htaccess.php:9
+#, php-format
+#@ wpbp
+msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writable "
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:50
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:51
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:68
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:136
+#@ wpbp
+msgid "Boilerplate Options"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:78
+#@ wpbp
+msgid "960gs (12 cols)"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:87
+#@ wpbp
+msgid "960gs (16 cols)"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:148
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:150
+#@ wpbp
+msgid "Google Analytics ID"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:153
+#@ wpbp
+msgid "Enter your UA-XXXXX-X ID"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:158
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:160
+#@ wpbp
+msgid "CSS Grid Framework"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:170
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:172
+#@ wpbp
+msgid "#main CSS Classes"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:175
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:185
+#@ wpbp
+msgid "Default:"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:180
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:182
+#@ wpbp
+msgid "#sidebar CSS Classes"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:190
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:192
+#@ wpbp
+msgid "CSS files"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:195
+#@ wpbp
+msgid "Enter CSS files URL you want to include. One file per line."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:200
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:202
+#@ wpbp
+msgid "Custom CSS"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:205
+#@ wpbp
+msgid "Enter custom CSS for this site"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:210
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:212
+#@ wpbp
+msgid "Javascript files"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:215
+#@ wpbp
+msgid "Enter javascript files URL you want to include. One file per line."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:220
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:222
+#@ wpbp
+msgid "Favicon"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-options.php:225
+#@ wpbp
+msgid "Enter your favicon URL"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-widgets.php:12
+#@ wpbp
+msgid "WPBP: vCard"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-widgets.php:201
+#@ wpbp
+msgid "WPBP: Taxonomy Navigation"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-widgets.php:400
+#@ wpbp
+msgid "WPBP: Latest Posts"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-widgets.php:472
+#@ wpbp
+msgid "WPBP: Most Popular"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/inc/wpbp-widgets.php:590
+#@ wpbp
+msgid "WPBP: Google AdSense Unit"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/index.php:11
+#@ wpbp
+msgid "Latest Posts"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-page.php:13
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-single.php:19
+#@ wpbp
+msgid "Pages:"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-search.php:4
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop.php:4
+#@ wpbp
+msgid "Sorry, no results were found."
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-search.php:19
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-single.php:11
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop.php:19
+#, php-format
+#@ wpbp
+msgid "Posted on %s at %s"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-search.php:19
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-single.php:11
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop.php:19
+#@ wpbp
+msgid "l, F jS, Y"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-search.php:20
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-single.php:12
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop.php:20
+#@ wpbp
+msgid "by"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-search.php:38
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop.php:42
+#@ wpbp
+msgid "&larr; Older posts"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop-search.php:39
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/loop.php:43
+#@ wpbp
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/page-sitemap.php:17
+#@ wpbp
+msgid "Pages"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/page-sitemap.php:19
+#@ wpbp
+msgid "Posts"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/page-sitemap.php:21
+#@ wpbp
+msgid "Archives"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/search.php:11
+#, php-format
+#@ wpbp
+msgid "Search results for: &laquo; %s &raquo;"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/searchform.php:2
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/searchform.php:3
+#@ wpbp
+msgid "Search"
+msgstr ""
+
+#: /home/triton42/public_html/wp-content/themes/wpboilerplate/tag.php:11
+#, php-format
+#@ wpbp
+msgid "Tag: &laquo; %s &raquo;"
+msgstr ""
+
