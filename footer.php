@@ -17,7 +17,7 @@
 					<div class="grid_6">
 						<div id="copy">
 							&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> /
-							<a class="powered-by-prospek" href="http://prospeksolutions.com" target="_blank"><?php _e("Powered by Prospek Solutions", 'capture'); ?></a>
+							<a class="powered-by-prospek" href="http://prospeksolutions.com" target="_blank"><?php _e("Prospek Solutions", 'capture'); ?></a>
 						</div>
 					</div>
 				</div>
