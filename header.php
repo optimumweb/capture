@@ -26,7 +26,7 @@
 			    <div class="grid_6">
 			    	<?php if ( of_get_option('tel') ) : ?>
 						<section id="call">
-							<h4><?php _e("Des questions? Appelez-nous!", 'capture'); ?></h4>
+							<h4><?php _e("Questions? Call us!", 'capture'); ?></h4>
 							<div class="tel"><?php echo of_get_option('tel'); ?></div>
 						</section>
 					<?php endif; ?>
