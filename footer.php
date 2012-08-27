@@ -8,13 +8,13 @@
 			</section>
 			<section id="sub-footer">
 				<div class="container <?php wpbp_option('container_class'); ?>">
-					<div class="grid_6">
+					<div class="grid_8">
 						<nav id="footer-nav">
 							<?php wp_nav_menu( array( 'theme_location' => 'secondary_navigation' ) ); ?>
 							<div class="clear"></div>
 						</nav>
 					</div>
-					<div class="grid_6">
+					<div class="grid_4">
 						<div id="copy">
 							&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> /
 							<a class="powered-by-prospek" href="http://prospeksolutions.com" target="_blank"><?php _e("Prospek Solutions", 'capture'); ?></a>
