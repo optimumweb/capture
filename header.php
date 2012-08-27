@@ -24,10 +24,10 @@
 					</section>
 			    </div>
 			    <div class="grid_6">
-			    	<?php if ( of_get_option('partner_tel') ) : ?>
+			    	<?php if ( of_get_option('tel') ) : ?>
 						<section id="call">
-							<h4><?php _e("Free information and advices", 'capture'); ?></h4>
-							<div class="tel"><?php echo of_get_option('partner_tel'); ?></div>
+							<h4><?php _e("Des questions? Appelez-nous!", 'capture'); ?></h4>
+							<div class="tel"><?php echo of_get_option('tel'); ?></div>
 						</section>
 					<?php endif; ?>
 			    </div>
