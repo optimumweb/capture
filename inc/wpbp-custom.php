@@ -28,9 +28,7 @@ function capture_style()
 		<?php if ( of_get_option('background_image') ) : ?>
 		background-image: url(<?php echo of_get_option('background_image'); ?>);
 		<?php endif; ?>
-		<?php if ( of_get_option('background_position') ) : ?>
-		background-position: url(<?php echo of_get_option('background_position'); ?>);
-		<?php endif; ?>
+		background-position: <?php echo of_get_option('background_position', 'center center'); ?>;
 		background-color: <?php echo of_get_option('background_color', '#fff'); ?>;
 		background-repeat: <?php echo of_get_option('background_repeat', 'repeat'); ?>;
 		background-attachment: <?php echo of_get_option('background_attachment', 'scroll'); ?>;
