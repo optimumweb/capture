@@ -40,13 +40,7 @@ function optionsframework_options() {
 			array( 'name' => __("Background Image", 'capture'), 'id' => 'background_image', 'type' => 'upload' ),
 			array( 'name' => __("Background Position", 'capture'), 'id' => 'background_position','type' => 'text' ),
 			array( 'name' => __("Background Tile", 'capture'), 'id' => 'background_repeat', 'type' => 'select', 'options' => array( 'repeat' => __("Repeat", 'capture'), 'no-repeat' => __("No-repeat", 'capture') ) ),
-			array( 'name' => __("Background Attachment", 'capture'), 'id' => 'background_attachment', 'type' => 'select', 'options' => array( 'scroll' => __("Scroll", 'capture'), 'fixed' => __("Fixed", 'capture') ) ),
-		array( 'name' => __("Slides", 'capture'), 'type' => 'heading' ),
-			array( 'name' => __("Slide 1", 'capture'), 'id' => 'slide_1', 'type' => 'upload' ),
-			array( 'name' => __("Slide 2", 'capture'), 'id' => 'slide_2', 'type' => 'upload' ),
-			array( 'name' => __("Slide 3", 'capture'), 'id' => 'slide_3', 'type' => 'upload' ),
-			array( 'name' => __("Slide 4", 'capture'), 'id' => 'slide_4', 'type' => 'upload' ),
-			array( 'name' => __("Slide 5", 'capture'), 'id' => 'slide_5', 'type' => 'upload' )
+			array( 'name' => __("Background Attachment", 'capture'), 'id' => 'background_attachment', 'type' => 'select', 'options' => array( 'scroll' => __("Scroll", 'capture'), 'fixed' => __("Fixed", 'capture') ) )
 	);
 
 	return $options;
