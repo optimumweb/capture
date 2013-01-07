@@ -40,7 +40,8 @@ function capture_get_slides($n = -1) {
     return get_posts(array(
         'numberposts' => $n,
         'post_type'   => 'slide',
-        'orderby'     => 'menu_order'
+        'orderby'     => 'menu_order',
+        'order'       => 'ASC'
     ));
 }
 
