@@ -10,7 +10,7 @@
 						<?php if ( of_get_option('logo') ) : ?>
 							<h1>
 								<a href="<?php echo home_url(); ?>/">
-									<img id="logo" src="<?php echo of_get_option('logo'); ?>" alt="<?php bloginfo('name'); ?>" />
+									<img id="logo" src="<?php echo of_get_option('logo'); ?>" alt="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>" />
 								</a>
 							</h1>
 						<?php else : ?>
