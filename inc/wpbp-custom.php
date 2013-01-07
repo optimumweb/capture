@@ -3,11 +3,11 @@
 // ENQUEUE
 function enqueue() {
 	if ( !is_admin() ) {
+        // librairies
+        wpbp_enqueue_lib( array( 'modernizr', 'jquery', 'wpbp', 'flexslider' ) );
 		// scripts
-		wpbp_enqueue_scripts( array( 'modernizr', 'jquery', 'wpbp', 'flexslider' ) );
 		wp_enqueue_script('theme', THEME_URI . '/js/scripts.js', array('wpbp'));
 		// styles
-		wpbp_enqueue_styles( array( 'wpbp', 'flexslider' ) );
 		wp_enqueue_style('theme', THEME_URI . '/css/master.css', array('wpbp'));
 	}
 }
@@ -19,8 +19,33 @@ load_theme_textdomain('capture', THEME_DIRECTORY . '/lang');
 // Add widget area
 wpbp_register_sidebars( array( 'Footer' ) );
 
-function capture_style()
-{
+// register 'slide' post type for slider
+function capture_register_slides() {
+    register_post_type(
+        'slide',
+        array(
+            'label'               => 'Slides',
+            'public'              => true,
+            'exclude_from_search' => true,
+            'publicly_queryable'  => false,
+            'show_in_nav_menus'   => false,
+            'capability_type'     => 'page',
+            'supports'            => array('title', 'editor', 'custom-fields'),
+            'rewrite'             => false
+        )
+    );
+}
+add_action('init', 'capture_register_slides');
+
+function capture_get_slides($n = -1) {
+    return get_posts(array(
+        'numberposts' => $n,
+        'post_type'   => 'slide',
+        'order_by'    => 'menu_order'
+    ));
+}
+
+function capture_style() {
 ?>
 <style>
 
