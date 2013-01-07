@@ -30,8 +30,7 @@ function capture_register_slides() {
             'publicly_queryable'  => false,
             'show_in_nav_menus'   => false,
             'capability_type'     => 'page',
-            'supports'            => array('title', 'editor', 'custom-fields'),
-            'rewrite'             => false
+            'supports'            => array('title', 'editor', 'custom-fields', 'page-attributes')
         )
     );
 }
