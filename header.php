@@ -8,17 +8,9 @@
             	<div class="grid_6">
 					<section id="site-title">
 						<?php if ( of_get_option('logo') ) : ?>
-							<h1>
-								<a href="<?php echo home_url(); ?>/">
-									<img id="logo" src="<?php echo of_get_option('logo'); ?>" alt="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>" />
-								</a>
-							</h1>
+							<h1><a href="<?php echo home_url(); ?>/"><img id="logo" src="<?php echo of_get_option('logo'); ?>" alt="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>" /></a></h1>
 						<?php else : ?>
-							<h1>
-								<a href="<?php echo home_url(); ?>/">
-									<?php bloginfo('name'); ?>
-								</a>
-							</h1>
+							<h1><a href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a></h1>
 							<h3><?php bloginfo('description'); ?></h3>
 						<?php endif; ?>
 					</section>
@@ -36,4 +28,4 @@
 		</header>
 		<?php wpbp_header_after(); ?>
 
-		<?php get_template_part('banner'); ?>
+		<?php if ( is_front_page() ) get_template_part('banner'); ?>
