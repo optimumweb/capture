@@ -17,7 +17,7 @@
 					<div class="grid_4">
 						<div id="copy">
 							&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> /
-							<a class="powered-by-prospek" href="http://prospeksolutions.com" target="_blank"><?php _e("Prospek Solutions", 'capture'); ?></a>
+							<a href="http://optimumweb.ca" target="_blank">OptimumWeb</a>
 						</div>
 					</div>
 				</div>
